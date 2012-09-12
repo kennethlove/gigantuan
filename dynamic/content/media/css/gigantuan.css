@@ -1,0 +1,26 @@
+body {
+    background:#a10;
+    color:#fff;
+    font-family: "Maven Pro", Georgia, sans-serif;
+    font-weight:700;
+}
+
+a {
+    color:#ffd;
+    font-weight:900;
+}
+
+strong,
+h1, h2 {
+    font-weight:900;
+}
+
+section.wrapper summary,
+section.wrapper p {
+    margin-bottom:1.625em;
+}
+
+header[role="banner"] h1 {
+    display:block;
+    width:100%;
+}
