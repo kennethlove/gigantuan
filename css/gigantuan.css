@@ -18,7 +18,7 @@ body{background:#ffffff url(../img/retina_dust.png);}
 #container #main section div h2{font-family:"Headland One",Georgia,serif;font-size:1.75em;line-height:1.25;min-height:2.5em;}
 #container #main section div a{background-color:rgba(255, 255, 255, 0.5);border-bottom:2px dotted #999;color:#666;font-size:0.75em;padding:2%;text-decoration:none;text-transform:uppercase;}#container #main section div a:hover{color:#333;border-style:solid;}
 #container #main section div a[rel="external"]{position:relative;padding-right:3em;}#container #main section div a[rel="external"]:after{bottom:0;content:"➼";font-size:2em;font-weight:bold;margin-left:0.5em;margin-top:0.5em;position:absolute;}
-footer{background:#333333 url(../img/dark_wall.png);border-top:1px solid #ccc;color:#ccc;padding:0.5em 2em;}footer p{font-family:"Headland One",Georgia,serif;font-size:0.75em;margin:0 auto;padding:0;width:auto;}
+footer{background:#333333 url(../img/dark_wall.png);border-top:1px solid #ccc;color:#ccc;padding:0.5em 2em;}footer p{font-family:"Headland One",Georgia,serif;font-size:0.75em;margin:0 auto;max-width:45em;padding:0;width:auto;}footer p a{color:#fff !important;}
 @media screen and (min-width:30em) and (max-width:63.236em){#container{width:30em;} .column.three{max-width:98%;min-width:98%;}}.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap;}
 .slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em !important;letter-spacing:inherit !important;word-spacing:inherit !important;*letter-spacing:0 !important;*word-spacing:0 !important;}
 .slabtextdone .slabtext{display:block;line-height:0.9;}
