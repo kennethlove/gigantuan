@@ -118,9 +118,6 @@ body {
                 font-size: 2.5em;
                 font-weight: 400;
                 margin-bottom: 1.5em;
-            }
-
-            &#about h1 {
                 text-align: center;
             }
 
@@ -130,6 +127,10 @@ body {
                     font-size: 1.75em;
                     line-height: 1.25;
                     min-height: 2.5em;
+                }
+
+                ul {
+                    list-style: circle inside;
                 }
 
                 a {
@@ -192,14 +193,29 @@ footer {
 @media screen and (min-width: 30em) and (max-width: 63.236em) {
     #container {
         width: 30em;
+
+        #main {
+            section {
+                div {
+                   h2 {
+                        min-height: 1em;
+                    }
+                }
+            }
+        }
     }
 
     .column {
         &.three {
             max-width: 98%;
             min-width: 98%;
+
+            &:first-of-type {
+                margin-left: 0;
+            }
         }
     }
+
 }
 
 

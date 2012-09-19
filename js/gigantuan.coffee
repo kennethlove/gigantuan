@@ -1,6 +1,8 @@
 $ ->
+    $.jqwidont.auto(false);
     $('#main section h1').each ->
-        $(this).wrapInner('<span class="slabtext" />')
+        $(this).fitText(1.5);
+        $.jqwidont.init();
     
     $('.slabtext').slabText
         viewportBreakpoint: '25em',
