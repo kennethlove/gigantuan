@@ -1,1 +1,24 @@
-html,body{height:100%;min-height:100%}body{background:#fff url(../img/retina_dust.png)}.row{max-width:100%;min-width:100%}.column{float:left;margin-left:1%;margin-right:1%}.column.one{margin-left:0;margin-right:0;max-width:100%;min-width:100%}.column.two{max-width:49%;min-width:49%}.column.three{max-width:30%;min-width:30%}.amp{font-family:Palatino,"Palatino Linotype","Constatina",Cochin,"Oregano",Georgia,cursive;font-style:italic}.descender{border-bottom:0!important;text-decoration:none!important}#container{padding:1.618em;margin:0 auto;max-width:60em}#container header[role="banner"]{background:#333 url(../img/black_twill.png);border:.5em solid rgba(255,255,255,0.75);border-radius:0 0 1.25em 1.25em;border-width:0 .125em .25em 0;box-shadow:.25em .25em .5em rgba(20,20,20,0.5);box-sizing:padding-box;color:#eee;margin-top:-1.618em;padding:1em}#container header[role="banner"] h1{font-family:"Oregano",Georgia,cursive;font-size:7em;margin-bottom:0}#container header[role="banner"] p{font-family:"Oregano",Georgia,cursive;font-size:1.25em;margin-bottom:0;max-width:100%;text-align:right;width:100%}#container #main{margin-top:3em}#container #main section h1{border-bottom:1px solid #999;font-family:"Headland One","Helvetica Neue",Helvetica,"Arial Black",Arial,sans-serif;font-size:2.5em;font-weight:400}#container #main section div h2{font-family:"Headland One",Georgia,serif}@media screen and (min-width:30em) and (max-width:63.236em){#container{width:30em}.column.three{max-width:98%;min-width:98%}}.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap}.slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em!important;letter-spacing:inherit!important;word-spacing:inherit!important;*letter-spacing:0!important;*word-spacing:0!important}.slabtextdone .slabtext{display:block;line-height:.9}
+html,body{min-height:100%;}
+body{background:#ffffff url(../img/retina_dust.png);}
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.row{max-width:100%;min-width:100%;*zoom:1;}.row:before,.row:after{display:table;content:"";line-height:0;}
+.row:after{clear:both;}
+.column{float:left;margin-left:1%;margin-right:1%;}.column.one{margin-left:0;margin-right:0;max-width:100%;min-width:100%;}
+.column.two{max-width:47%;min-width:47%;}.column.two:first-of-type{margin-left:3%;}
+.column.three{max-width:30%;min-width:30%;}.column.three:first-of-type{margin-left:3.5%;}
+.amp{font-family:Palatino,"Palatino Linotype","Constatina",Cochin,"Oregano",Georgia,cursive;font-style:italic;font-size:1.25em;}
+.descender{border-bottom:0 !important;text-decoration:none !important;}
+#container{padding:1.618em;margin:0 auto;max-width:60em;}#container header[role="banner"]{background:#333333 url(../img/dark_wall.png);border:0.5em solid rgba(255, 255, 255, 0.75);border-radius:0 0 1.25em 1.25em;border-width:0 0.125em 0.25em 0;box-shadow:0.25em 0.25em 0.5em rgba(20, 20, 20, 0.5);box-sizing:padding-box;color:#eee;margin-top:-1.618em;padding:1em;}#container header[role="banner"] h1{font-family:"Oregano",Georgia,cursive;font-size:8em;margin-bottom:0;}
+#container header[role="banner"] p{font-family:"Oregano",Georgia,cursive;font-size:1.25em;margin-bottom:0;max-width:100%;text-align:right;width:100%;}
+#container #main{margin-top:3em;}#container #main section{margin-bottom:2em;*zoom:1;}#container #main section:before,#container #main section:after{display:table;content:"";line-height:0;}
+#container #main section:after{clear:both;}
+#container #main section h1{font-family:"Headland One",Georgia,serif;font-size:2.5em;font-weight:400;margin-bottom:1.5em;}
+#container #main section#about h1{text-align:center;}
+#container #main section div h2{font-family:"Headland One",Georgia,serif;font-size:1.75em;line-height:1.25;min-height:2.5em;}
+#container #main section div a{background-color:rgba(255, 255, 255, 0.5);border-bottom:2px dotted #999;color:#666;font-size:0.75em;padding:2%;text-decoration:none;text-transform:uppercase;}#container #main section div a:hover{color:#333;border-style:solid;}
+#container #main section div a[rel="external"]{position:relative;padding-right:3em;}#container #main section div a[rel="external"]:after{bottom:0;content:"➼";font-size:2em;font-weight:bold;margin-left:0.5em;margin-top:0.5em;position:absolute;}
+footer{background:#333333 url(../img/dark_wall.png);border-top:1px solid #ccc;color:#ccc;padding:0.5em 2em;}footer p{font-family:"Headland One",Georgia,serif;font-size:0.75em;margin:0 auto;padding:0;width:auto;}
+@media screen and (min-width:30em) and (max-width:63.236em){#container{width:30em;} .column.three{max-width:98%;min-width:98%;}}.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap;}
+.slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em !important;letter-spacing:inherit !important;word-spacing:inherit !important;*letter-spacing:0 !important;*word-spacing:0 !important;}
+.slabtextdone .slabtext{display:block;line-height:0.9;}

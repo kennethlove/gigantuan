@@ -6,7 +6,8 @@
             background-image: url(../img/retina_dust_@2X.png);
         }
 
-        #container header[role="banner"] {
-            background-image: url(../img/black_twill_@2X.png);
+        #container header[role="banner"],
+        footer {
+            background-image: url(../img/dark_wall_@2X.png);
         }
 }
