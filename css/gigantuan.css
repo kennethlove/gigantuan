@@ -1,5 +1,5 @@
 html,body{min-height:100%;}
-body{background:#ffffff url(../img/retina_dust.png);}
+body{background:#ffffff url(../img/retina_dust.png);background-size:200px 200px;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
 .clearfix:after{clear:both;}
 .row{max-width:100%;min-width:100%;*zoom:1;}.row:before,.row:after{display:table;content:"";line-height:0;}
@@ -9,7 +9,7 @@ body{background:#ffffff url(../img/retina_dust.png);}
 .column.three{max-width:30%;min-width:30%;}.column.three:first-of-type{margin-left:3.5%;}
 .amp{font-family:Palatino,"Palatino Linotype","Constatina",Cochin,"Oregano",Georgia,cursive;font-style:italic;font-size:1.25em;}
 .descender{border-bottom:0 !important;text-decoration:none !important;}
-#container{padding:1.618em;margin:0 auto;max-width:60em;}#container header[role="banner"]{background:#333333 url(../img/dark_wall.png);border:0.5em solid rgba(255, 255, 255, 0.75);border-radius:0 0 1.25em 1.25em;border-width:0 0.125em 0.25em 0;box-shadow:0.25em 0.25em 0.5em rgba(20, 20, 20, 0.5);box-sizing:padding-box;color:#eee;margin-top:-1.618em;padding:1em;}#container header[role="banner"] h1{font-family:"Oregano",Georgia,cursive;font-size:8em;margin-bottom:0;}
+#container{padding:1.618em;margin:0 auto;max-width:60em;}#container header[role="banner"]{background:#333333 url(../img/dark_wall.png);background-size:300px 300px;border:0.5em solid rgba(255, 255, 255, 0.75);border-radius:0 0 1.25em 1.25em;border-width:0 0.125em 0.25em 0;box-shadow:0.25em 0.25em 0.5em rgba(20, 20, 20, 0.5);box-sizing:padding-box;color:#eee;margin-top:-1.618em;padding:1em;}#container header[role="banner"] h1{font-family:"Oregano",Georgia,cursive;font-size:8em;margin-bottom:0;}
 #container header[role="banner"] p{font-family:"Oregano",Georgia,cursive;font-size:1.25em;margin-bottom:0;max-width:100%;text-align:right;width:100%;}
 #container #main{margin-top:3em;}#container #main section{margin-bottom:2em;*zoom:1;}#container #main section:before,#container #main section:after{display:table;content:"";line-height:0;}
 #container #main section:after{clear:both;}
