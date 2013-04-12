@@ -7,159 +7,143 @@
 <head>
     <title>Gigantuan -- Kenneth Love</title>
     <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="The life and times of Kenneth Love's professional career.">
+    <meta name="author" content="Kenneth Love">
     <!-- /ht Andy Clarke - http://front.ie/lkCwyf -->
     <meta http-equiv="cleartype" content="on">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <link href="http://fonts.googleapis.com/css?family=Oregano" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/global.css" media="all">
-    <link rel="stylesheet" href="css/gigantuan.css" media="all and (min-width: 33.236em)">
-    <link rel="stylesheet" href="css/retina.css" media="all and (min-width: 33.236em)">
-    <!--[if (lt IE 9) & (!IEMobile)]>
-    <link rel="stylesheet" href="css/gigantuan.css" media="all">
-    <![endif]-->
-
+    <script src="//use.typekit.net/bci6mlu.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     <script src="js/libs/modernizr-1.7.min.js"></script>
-    <script src="https://www.google.com/jsapi"></script>
-    <script>
-        google.load("webfont", "1");
-        google.load("jquery", "1");
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-        google.setOnLoadCallback(function() {
-            WebFont.load({
-                google: {
-                    families: ["Oregano", "Headland+One:400:latin"]
-                }
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="css/gigantuan.css" media="all and (min-width: 33.236em)">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+        <link rel="stylesheet" href="css/gigantuan.css" media="all">
+    <![endif]-->
 </head>
 <body>
     <div id="container" class="cf">
-        <header role="banner">
+        <header class="logo">
             <h1>Gigantuan</h1>
             <p>Kenneth Love&rsquo;s Freelance Thing</p>
         </header>
 
-        <div id="main" role="main">
-            <section id="work">
-                <h1>Projects, Clients, <span class="amp">&amp;</span> Things That Keep Me Busy</h1>
+        <section id="work">
+            <h1>Projects, Clients, <span class="amp">&amp;</span> Things That Keep Me Busy</h1>
 
+            <div class="row">
+                <div class="column three">
+                    <h2>Getting Started With Django</h2>
+                    <p>My Kickstarter campaign to produce a series of videos aimed at educating people interested in going beyond the official Django tutorial and the out-dated Django Book.</p>
+                    <p class="no-bottom-margin"><a href="http://www.kickstarter.com/projects/657368266/getting-started-with-django" rel="external">Learn more</a></p>
+                    <p class="no-bottom-margin"><a href="http://gettingstartedwithdjango.com" rel="external">Visit the site</a></p>
+                </div>
+
+                <div class="column three">
+                    <h2>Brack3t</h2>
+                    <p>Blogging and open source Python <span class="amp">&amp;</span> Django development with my good friend Chris Jones. We've created a couple of popular packages and blogged about everything we've done.</p>
+                    <p class="no-bottom-margin"><a href="http://brack3t.com" rel="external">Visit the site</a></p>
+                </div>
+
+                <div class="column three">
+                    <h2>Mike <span class="amp">&amp;</span> Kenneth&rsquo;s Monday Madness</h2>
+                    <p>A semi-weekly podcast covering pop <span class="amp">&amp;</span> geek culture, tech news, and anything else that pops into our heads while recording.</p>
+                    <p class="no-bottom-margin"><a href="http://pishposh.tv/mike-and-kenneth-s-monday-madness" rel="external">Listen or watch</a></p>
+                </div>
+            </div>
+
+            <div class="row top-margin">
+                <div class="column one">
+                    <h2 class="no-min-height">Clients</h2>
+                    <p>Some of my favorite work was or is being done with <a href="http://chewse.com">Chewse</a>, <a href="http://tindie.com">Tindie</a>, <a href="http://www.noetic.org">IONS</a>, <a href="http://www.eldarion.com">Eldarion</a>, <a href="http://www.explore.org">Explore</a>, and <a href="http://www.apartments24-7.com">Apartments 24-7</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="code">
+            <h1>Code I&rsquo;ve Released Into The Cold, Harsh World</h1>
+            <div class="row">
+                <div class="column three">
+                    <h2>Django Braces</h2>
+                    <p>A handy collection of mixins for class-based views. Covers common use-cases like requiring a specific permission, user-level, or authentication.</p>
+                    <p class="no-bottom-margin"><a href="https://crate.io/packages/django-braces/" rel="external">Details</a></p>
+                </div>
+                <div class="column three">
+                    <h2>Banana Py</h2>
+                    <p>A library for doing OAuth2 requests for accounts from MailChimp.</p>
+                    <p class="no-bottom-margin"><a href="https://crate.io/packages/banana_py/" rel="external">Details</a></p>
+                </div>
+                <div class="column three">
+                    <h2>Redbeard</h2>
+                    <p>We missed having something like PHPMyAdmin when we started working more heavily with Redis, so we scratched our own itch. It&rsquo;s in need of a revamp, but it&rsquo;s still a fairly handy tool to have around.</p>
+                    <p class="no-bottom-margin"><a href="https://github.com/brack3t/Redbeard" rel="external">Details</a></p>
+                </div>
+            </div>
+            <div class="row top-margin">
+                <div class="column three">
+                    <h2>My Github</h2>
+                    <p>All the open source projects I do are in public repos and most are located here in my Github account.</p>
+                    <p class="no-bottom-margin"><a href="https://github.com/kennethlove/" rel="external">So many repos</a></p>
+                </div>
+                <div class="column three">
+                    <h2>Brack3t&rsquo;s Github</h2>
+                    <p>The rest of the open source work I do is located here. Chris and I try to keep everything organized here, but, well, you know how well that usually works out.</p>
+                    <p class="no-bottom-margin"><a href="https://github.com/brack3t/" rel="external">Even more repos</a></p>
+                </div>
+                <div class="column three">
+                    <h2>My Bitbucket</h2>
+                    <p>I used to use Mercurial for my main <abbr title="Version Control System">VCS</abbr> but that fell away to using Git. Still, the few open projects that I did with Hg are available here.</p>
+                    <p class="no-bottom-margin"><a href="https://bitbucket.org/kennethlove/" rel="external">Rarely updated</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="row">
+            <h1>Who Is That Masked Man?</h1>
+            <div class="column two">
+                <h2>The Man, The Myth</h2>
+                <p>I'm a father and a husband. I've been building web sites and applications for over 15 years and I don't plan on stopping any time soon.</p>
+                <p>I'm a educator through my videos, blog posts, and as a speaker at conferences, meetups, and just training co-workers.</p>
+                <p>I live in Oregon and enjoy getting to get out in nature and take photos.</p>
+                <p>You'd do best to hit me up on <a href="http://twitter.com/kennethlove" rel="external">Twitter</a>.</p>
+                <p>If you'd like to support my open source efforts, feel free to tip me <a href="http://gittip.com/kennethlove">on Gittip</a>.</p>
+                <p>You can also <a href="http://blog.gigantuan.net">visit my blog</a>.</p>
+            </div>
+            <div class="column two">
+                <h2>The Dirty Details</h2>
                 <div class="row">
-                    <div class="column three">
-                        <h2>Getting Started With Django</h2>
-                        <p>My Kickstarter campaign to produce a series of videos aimed at educating people interested in going beyond the official Django tutorial and the out-dated Django Book.</p>
-                        <p><a href="http://www.kickstarter.com/projects/657368266/getting-started-with-django" rel="external">Learn more</a></p>
-                        <p><a href="http://gettingstartedwithdjango.com" rel="external">Visit the site</a></p>
-                    </div>
-
-                    <div class="column three">
-                        <h2>Brack3t</h2>
-                        <p>Blogging and open source Python <span class="amp">&amp;</span> Django development with my good friend Chris Jones. We've created a couple of popular packages and blogged about everything we've done.</p>
-                        <p><a href="http://brack3t.com" rel="external">Visit the site</a></p>
-                    </div>
-
-                    <div class="column three">
-                        <h2>Mike <span class="amp">&amp;</span> Kenneth&rsquo;s Monday Madness</h2>
-                        <p>A semi-weekly podcast covering pop <span class="amp">&amp;</span> geek culture, tech news, and anything else that pops into our heads while recording.</p>
-                        <p><a href="http://pishposh.tv/mike-and-kenneth-s-monday-madness" rel="external">Listen or watch</a></p>
-                    </div>
+                    <ul class="column two">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Less</li>
+                        <li>Javascript</li>
+                        <li>CoffeeScript</li>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>JSON</li>
+                    </ul>
+                    <ul class="column two">
+                        <li>Django</li>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Nginx</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis</li>
+                        <li>MongoDB</li>
+                        <li>PostGIS</li>
+                    </ul>
                 </div>
-
-                <div class="row">
-                    <div class="column three">
-                        <h2>Clients</h2>
-                        <p>Some of my favorite work was or is being done with <a href="http://chewse.com">Chewse</a>, <a href="http://tindie.com">Tindie</a>, <a href="http://www.noetic.org">IONS</a>, <a href="http://www.eldarion.com">Eldarion</a>, <a href="http://www.explore.org">Explore</a>, and <a href="http://www.apartments24-7.com">Apartments 24-7</a>.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="code">
-                <h1>Code I&rsquo;ve Released Into The Cold, Harsh World</h1>
-                <div class="row">
-                    <div class="column three">
-                        <h2>Django Braces</h2>
-                        <p>A handy collection of mixins for class-based views. Covers common use-cases like requiring a specific permission, user-level, or authentication.</p>
-                        <p><a href="https://crate.io/packages/django-braces/" rel="external">Details</a></p>
-                    </div>
-                    <div class="column three">
-                        <h2>Banana Py</h2>
-                        <p>A library for doing OAuth2 requests for accounts from MailChimp.</p>
-                        <p><a href="https://crate.io/packages/banana_py/" rel="external">Details</a></p>
-                    </div>
-                    <div class="column three">
-                        <h2>Redbeard</h2>
-                        <p>We missed having something like PHPMyAdmin when we started working more heavily with Redis, so we scratched our own itch. It&rsquo;s in need of a revamp, but it&rsquo;s still a fairly handy tool to have around.</p>
-                        <p><a href="https://github.com/brack3t/Redbeard" rel="external">Details</a></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column three">
-                        <h2>My Github</h2>
-                        <p>All the open source projects I do are in public repos and most are located here in my Github account.</p>
-                        <p><a href="https://github.com/kennethlove/" rel="external">So many repos</a></p>
-                    </div>
-                    <div class="column three">
-                        <h2>Brack3t&rsquo;s Github</h2>
-                        <p>The rest of the open source work I do is located here. Chris and I try to keep everything organized here, but, well, you know how well that usually works out.</p>
-                        <p><a href="https://github.com/brack3t/" rel="external">Even more repos</a></p>
-                    </div>
-                    <div class="column three">
-                        <h2>My Bitbucket</h2>
-                        <p>I used to use Mercurial for my main <abbr title="Version Control System">VCS</abbr> but that fell away to using Git. Still, the few open projects that I did with Hg are available here.</p>
-                        <p><a href="https://bitbucket.org/kennethlove/" rel="external">Rarely updated</a></p>
-                    </div>
-                </div>
-            </section>
-            <section id="about" class="row">
-                <h1>Who Is That Masked Man?</h1>
-                <div class="column two">
-                    <h2>The Man, The Myth</h2>
-                    <p>I'm a father and a husband. I've been building web sites and applications for over 15 years and I don't plan on stopping any time soon.</p>
-                    <p>I'm a educator through my videos, blog posts, and as a speaker at conferences, meetups, and just training co-workers.</p>
-                    <p>I live in Oregon and enjoy getting to get out in nature and take photos.</p>
-                    <p>You'd do best to hit me up on <a href="http://twitter.com/kennethlove" rel="external">Twitter</a>.</p>
-                    <p>If you'd like to support my open source efforts, feel free to tip me on Gittip:
-                        <span class="gittip-0001" gittip-username="kennethlove"></span>
-                        <script id="gittip-0001" src="https://www.gittip.com/assets/widgets/0001.js"></script>
-                    </p>
-                    <p>You can also <a href="http://blog.gigantuan.net">visit my blog</a>.</p>
-                </div>
-                <div class="column two">
-                    <h2>The Dirty Details</h2>
-                    <div class="row">
-                        <ul class="column two">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Less</li>
-                            <li>Javascript</li>
-                            <li>CoffeeScript</li>
-                            <li>Photoshop</li>
-                            <li>Illustrator</li>
-                            <li>JSON</li>
-                        </ul>
-                        <ul class="column two">
-                            <li>Django</li>
-                            <li>Python</li>
-                            <li>Flask</li>
-                            <li>Nginx</li>
-                            <li>PostgreSQL</li>
-                            <li>Redis</li>
-                            <li>MongoDB</li>
-                            <li>PostGIS</li>
-                        </ul>
-                    </div>
-                    <p>I have an Associate's Degree in Multimedia Technology, which is just a roundabout way of saying I can design things on the Web. I'm completely self-taught when it comes to all of the technologies you see above.</p>
-                </div>
-            </section>
-        </div>
+                <p>I have an Associate's Degree in Multimedia Technology, which is just a roundabout way of saying I can design things on the Web. I'm completely self-taught when it comes to all of the technologies you see above.</p>
+            </div>
+        </section>
     </div>
+
     <footer>
-        <p>&copy; Kenneth Love. All rights reserved and all that jazz. Textures from <a href="http://subtlepatterns.com">subtlepatterns</a></p>
+        <p>&copy; Kenneth Love. All rights reserved and all that jazz.</p>
     </footer>
+
     <script src="js/libs/jquery.fittext.js"></script>
     <script src="js/libs/jqwidont-compressed.js"></script>
     <script src="js/gigantuan.js"></script>
