@@ -1,6 +1,13 @@
 @import "global.css";
+@import "verb_regular/stylesheet.css";
+@import "verb_medium/stylesheet.css";
+@import "verb_bold/stylesheet.css";
+@import "verb_light/stylesheet.css";
+.headline{font-family:"verb_regularbold","Helvetica Neue",helvetica,sans-serif;font-weight:normal;}
+.copy{font-family:"verb_regularregular","Helvetica Neue",helvetica,sans-serif;font-weight:normal;}
+.thin{font-family:"verb_lightregular","Helvetica Neue",helvetica,sans-serif;font-weight:normal;}
 html,body{min-height:100%;}
-body{background:#dd4f2e;color:#fffcef;font-family:"museo-slab",georgia,serif;}
+body{font-family:"verb_regularregular","Helvetica Neue",helvetica,sans-serif;font-weight:normal;background:#dd4f2e;color:#fffcef;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
 .clearfix:after{clear:both;}
 .row{max-width:100%;min-width:100%;*zoom:1;}.row:before,.row:after{display:table;content:"";line-height:0;}
@@ -10,21 +17,22 @@ body{background:#dd4f2e;color:#fffcef;font-family:"museo-slab",georgia,serif;}
 .column.one{max-width:100%;min-width:100%;}
 .column.two{max-width:49.2%;min-width:49.2%;}
 .column.three{max-width:32.6%;min-width:32.6%;}
-.amp{font-family:"omnes-pro","helvetica neue",sans-serif;font-size:.85em;font-weight:100;}
+.amp{font-family:"verb_lightregular","Helvetica Neue",helvetica,sans-serif;font-weight:normal;font-size:.85em;}
 .descender{border-bottom:0 !important;text-decoration:none !important;}
 .top-margin{margin-top:2em;}
 .no-bottom-margin{margin-bottom:0;}
-h1,h2,h3{font-family:"omnes-pro","Helvetica Neue",sans-serif;font-weight:900;}
-p{font-family:"museo-slab",georgia,serif;font-size:1.3em;font-weight:100;}
+h1,h2,h3{font-family:"verb_regularbold","Helvetica Neue",helvetica,sans-serif;font-weight:normal;}
+p{font-family:"verb_regularregular","Helvetica Neue",helvetica,sans-serif;font-weight:normal;font-size:1.3em;}
 #container{padding:1.618em;margin:0 auto;max-width:60em;}#container .logo{color:#eee;}#container .logo h1{font-size:8em;margin-bottom:0;}
-#container .logo p{font-family:"omnes-pro","Helvetica Neue",sans-serif;font-size:1.25em;font-weight:100;letter-spacing:0.125em;max-width:100%;text-align:right;width:100%;}
+#container .logo p{font-family:"verb_lightregular","Helvetica Neue",helvetica,sans-serif;font-weight:normal;font-size:1.25em;letter-spacing:0.125em;max-width:100%;text-align:right;width:100%;}
 #container section{margin-bottom:2em;*zoom:1;}#container section:before,#container section:after{display:table;content:"";line-height:0;}
 #container section:after{clear:both;}
-#container section h1{color:#fffcef;font-family:"omnes-pro","Helvetica Neue",sans-serif;font-size:2.5em;font-weight:400;margin-bottom:1.5em;text-align:center;}
-#container section div h2{color:#fffcef;font-family:"omnes-pro","Helvetica Neue",sans-serif;font-size:2em;font-weight:100;letter-spacing:0.08em;line-height:1.25;min-height:2.5em;}#container section div h2.no-min-height{min-height:1em;}
+#container section h1{font-family:"verb_regularbold","Helvetica Neue",helvetica,sans-serif;font-weight:normal;color:#fffcef;font-size:2.5em;margin-bottom:1.5em;text-align:center;}
+#container section div h2{font-family:"verb_regularbold","Helvetica Neue",helvetica,sans-serif;font-weight:normal;color:#fffcef;font-size:2em;letter-spacing:0.08em;line-height:1.25;min-height:2.5em;}#container section div h2.no-min-height{min-height:1em;}
+#container section div #clients{max-width:40em;}
 #container section div ul{list-style:circle inside;}
-#container section div a{color:#fffcef;font-family:"omnes-pro","Helvetica Neue",sans-serif;font-size:0.75em;font-weight:100;letter-spacing:0.125em;padding:0.25em;text-decoration:none;text-transform:uppercase;transition:all 0.5s;}#container section div a:hover{background:#fffcef;font-size:1em;color:#dd4f2e;}
-footer{color:#fffcef;padding:0.5em 2em;}footer p{font-family:"omnes-pro","Helvetica Neue",sans-serif;font-size:0.75em;letter-spacing:0.125em;margin:0 auto;max-width:45em;padding:0;text-align:center;width:auto;}
+#container section div a{font-family:"verb_lightregular","Helvetica Neue",helvetica,sans-serif;font-weight:normal;color:#fffcef;font-size:0.75em;letter-spacing:0.125em;padding:0.25em;text-decoration:none;text-transform:uppercase;transition:all 0.5s;}#container section div a:hover{background:#fffcef;font-size:1em;color:#dd4f2e;}
+footer{color:#fffcef;padding:0.5em 2em;}footer p{font-family:"verb_regularbold","Helvetica Neue",helvetica,sans-serif;font-weight:normal;font-size:0.75em;letter-spacing:0.125em;margin:0 auto;max-width:45em;padding:0;text-align:center;width:auto;}
 @media screen and (min-width:30em) and (max-width:63.236em){#container{width:30em;}#container #main section div h2{min-height:1em;} .column.three{max-width:98%;min-width:98%;}.column.three:first-of-type{margin-left:0;}}.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap;}
 .slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em !important;letter-spacing:inherit !important;word-spacing:inherit !important;*letter-spacing:0 !important;*word-spacing:0 !important;}
 .slabtextdone .slabtext{display:block;line-height:0.9;}

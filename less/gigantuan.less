@@ -1,9 +1,23 @@
 @import "global.css";
+@import "verb_regular/stylesheet.css";
+@import "verb_medium/stylesheet.css";
+@import "verb_bold/stylesheet.css";
+@import "verb_light/stylesheet.css";
 
 /* Vars
 ----------------------------------------------------------------------------------------*/
-@headline: "omnes-pro", "Helvetica Neue", sans-serif;
-@copy: "museo-slab", georgia, serif;
+.headline {
+    font-family: "verb_regularbold", "Helvetica Neue", helvetica, sans-serif;
+    font-weight: normal;
+}
+.copy {
+    font-family: "verb_regularregular", "Helvetica Neue", helvetica, sans-serif;
+    font-weight: normal;
+}
+.thin {
+    font-family: "verb_lightregular", "Helvetica Neue", helvetica, sans-serif;
+    font-weight: normal;
+}
 @offWhite: rgb(255,252,239);
 @orange: rgb(221,79,46);
 
@@ -14,9 +28,9 @@ html, body {
 }
 
 body {
+    .copy;
     background: @orange;
     color: @offWhite;
-    font-family: @copy;
 }
 
 .clearfix {
@@ -66,9 +80,8 @@ body {
 }
 
 .amp {
-    font-family: "omnes-pro", "helvetica neue", sans-serif;
+    .thin;
     font-size: .85em;
-    font-weight: 100;
 }
 
 .descender {
@@ -85,14 +98,12 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: @headline;
-    font-weight: 900;
+    .headline;
 }
 
 p {
-    font-family: @copy;
+    .copy;
     font-size: 1.3em;
-    font-weight: 100;
 }
 
 #container {
@@ -109,9 +120,8 @@ p {
         }
 
         p {
-            font-family: @headline;
+            .thin;
             font-size: 1.25em;
-            font-weight: 100;
             letter-spacing: 0.125em;
             max-width: 100%;
             text-align: right;
@@ -124,20 +134,18 @@ p {
         .clearfix();
 
         h1 {
+            .headline;
             color: @offWhite;
-            font-family: @headline;
             font-size: 2.5em;
-            font-weight: 400;
             margin-bottom: 1.5em;
             text-align: center;
         }
 
         div {
             h2 {
+                .headline;
                 color: @offWhite;
-                font-family: @headline;
                 font-size: 2em;
-                font-weight: 100;
                 letter-spacing: 0.08em;
                 line-height: 1.25;
                 min-height: 2.5em;
@@ -147,15 +155,18 @@ p {
                 }
             }
 
+            #clients {
+                max-width: 40em;
+            }
+
             ul {
                 list-style: circle inside;
             }
 
             a {
+                .thin;
                 color: @offWhite;
-                font-family: @headline;
                 font-size: 0.75em;
-                font-weight: 100;
                 letter-spacing: 0.125em;
                 padding: 0.25em;
                 text-decoration: none;
@@ -177,7 +188,7 @@ footer {
     padding: 0.5em 2em;
 
     p {
-        font-family: @headline;
+        .headline;
         font-size: 0.75em;
         letter-spacing: 0.125em;
         margin: 0 auto;
